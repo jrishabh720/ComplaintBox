@@ -1,0 +1,6 @@
+<% include partial/header %>
+<form class="form col-8 m-auto" action="../edit/<%= no.id %>?_method=PUT" method="post">
+      <input type="text" id="status" class="form-control mb-1" name="a[status]" value=1 required>
+      <button class="btn btn-lg btn-success btn-block" type="submit">Solved</button>
+</form>
+<% include partial/footer %>
